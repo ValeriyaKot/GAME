@@ -1,0 +1,188 @@
+// Color system
+$primary: #171717;
+$secondary: #E6EE99;
+$body-bg: #282828;
+// Links
+$link-color: white;
+$link-hover-color: $primary;
+$link-hover-decoration: none;
+// Buttons
+$btn-focus-box-shadow: none;
+// Forms
+$input-border-color: $primary;
+$input-focus-box-shadow: none;
+$custom-file-button-bg: $primary;
+$custom-file-button-color: white;
+// Navs
+$nav-tabs-link-active-color: $primary;
+$navbar-padding-y: 0;
+// Pagination
+$pagination-active-bg: $primary;
+$pagination-color: $secondary;
+$pagination-hover-color: $primary;
+$pagination-hover-bg: none;
+$pagination-focus-box-shadow: none;
+$pagination-focus-outline: none;
+// Paragraphs
+$paragraph-margin-bottom: 0rem;
+// Components
+$border-color: $primary;
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+    border-bottom: 2px solid $secondary!important;
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-self: center;
+    color: white;
+    background-color: $primary;
+}
+
+#title {
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-plus {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 15px;
+    background-color: $secondary;
+}
+
+.btn-info {
+    color: white !important;
+}
+
+.btn:focus,
+.btn.focus {
+    outline: none !important;
+}
+
+.btn:hover .icon {
+    color: $primary !important;
+}
+
+.btn:focus .icon {
+    color: $primary !important;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+    background-color: $primary;
+    border-color: $primary;
+    color: white;
+    border-radius: 0.25rem;
+    border-style: solid;
+}
+
+input[type="file"]::-webkit-file-upload-button:hover,
+input[type="file"]::-webkit-file-upload-button:focus {
+    border-color: #698fb6;
+    background-color: #698fb6;
+}
+
+.dropdown-menu-right {
+    padding: 0px !important;
+}
+
+.dropdown-toggle {
+    padding: 0px !important;
+}
+
+.dropdown-toggle:focus {
+    outline: none !important;
+}
+
+#creation-title {
+    border-color: #dee2e6 !important;
+    font-size: 20px;
+    color: #2e4159;
+}
+
+#employee-name {
+    font-size: 1.2rem;
+}
+
+#badges {
+    font-size: 1.2rem;
+}
+
+#badge-title {
+    font-size: 1.3rem;
+}
+
+#badge-description {
+    font-size: 1.2rem;
+}
+
+#badge-link {
+    color: $primary;
+    font-size: 1.2rem;
+}
+
+#badge-link:focus,
+#badge-link:hover {
+    color: $secondary;
+}
+
+#badge-edit-link {
+    color: $primary;
+}
+
+#badge-edit-link:focus,
+#badge-edit-link:hover {
+    color: $secondary;
+}
+
+.a-tab {
+    box-shadow: #6c757d;
+}
+
+#user-name {
+    color: white;
+    font-size: 15px;
+}
+
+#position {
+    font-size: 12px;
+    color: #2e4159;
+}
+
+.searchIcon {
+    color: white;
+}
+
+#scrollspy-badges {
+    position: relative;
+    height: 600px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #e9ecef;
+    border-top: 1px solid #e9ecef;
+}
+
+#badge-button {
+    border: none;
+    color: #2e4159;
+    text-align: left;
+    border-radius: 0;
+}
+
+#badge-button:hover,
+#badge-button:focus,
+#badge-button:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+    background-color: white;
+    color: #2e4159;
+    outline: none !important;
+}
+
+.logo {
+    height: 17px
+}
+
+@import "/node_modules/bootstrap/scss/bootstrap.scss";
+@import "/node_modules/bootstrap-vue/src/index.scss";
